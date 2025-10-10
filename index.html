@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Serverless Task Tracker</title>
+    <style>
+        body { font-family: Arial, sans-serif; max-width: 700px; margin: auto; padding: 20px; }
+        h1 { text-align: center; }
+        .task { border: 1px solid #ddd; padding: 10px; margin: 10px 0; border-radius: 5px; }
+        .task button { margin-right: 5px; }
+        input, textarea { width: 100%; margin-bottom: 10px; padding: 8px; }
+    </style>
+</head>
+<body>
+    <h1>Serverless Task Tracker</h1>
+
+    <h3>Add New Task</h3>
+    <input type="text" id="title" placeholder="Task Title" />
+    <textarea id="description" placeholder="Task Description"></textarea>
+    <button onclick="addTask()">Add Task</button>
+
+    <h3>Tasks</h3>
+    <div id="tasks"></div>
+
+    <script src="app.js"></script>
+</body>
+</html>
