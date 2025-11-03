@@ -104,7 +104,7 @@ serverless-task-tracker/
 Frontend: [ View Frontend (GCS)](https://storage.googleapis.com/task-tracker-frontend/index.html)  
 Backend API: [ View Backend API (Cloud Run)](https://task-tracker-api-885421437767.asia-south1.run.app)
 
-Note
+## Note
 My GCP account is currently closed. This project was developed and tested earlier during my training.
 The code is provided for demonstration, and can be run by anyone with an active GCP account.
 
